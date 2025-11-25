@@ -127,4 +127,21 @@
         }
 
       
-        
+        .section-img {
+  position: relative;
+ 
+  width: 30%;
+  height: 100vh;
+ 
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 42%;
+  background-repeat: no-repeat;
+  z-index: 99999;
+  cursor: pointer;
+}
+
+
+#img-two {
+  background-image: url(./SANI.jpeg);
+}

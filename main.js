@@ -387,6 +387,11 @@ function initScrollDetection() {
 //    // setupScrollTriggers(); // uncomment if you want to init right away (only when .main_content is visible)
 // }
 
-document.querySelector("p").addEventListener("mouseenter", function () {
-    document.querySelector("body").style.backgroundColor = "#dfd2be";
+
+document.querySelector("#img-two").addEventListener("mouseenter", function () {
+    document.querySelector("body").style.backgroundColor = "#1a354e";
+})
+
+document.querySelector("#img-two").addEventListener("mouseleave", function () {
+    document.querySelector("body").style.backgroundColor = "#000";
 })
